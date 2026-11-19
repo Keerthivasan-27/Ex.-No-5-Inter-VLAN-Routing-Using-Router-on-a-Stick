@@ -17,7 +17,7 @@ ________________________________________
 •	PC2 and PC3 belong to VLAN 20 (192.168.20.0/24)<br>
 •	Switch connected to Router via a trunk port (FastEthernet0/1 on switch → GigabitEthernet0/0 on router)<br>
 •	Router subinterfaces handle VLAN routing<br>
-(Insert screenshot of your Packet Tracer setup here)<br>
+<img width="1600" height="899" alt="WhatsApp Image 2026-11-19 at 4 00 29 PM" src="https://github.com/user-attachments/assets/74db12ca-8e33-4fe0-b8c6-5d710ffb429d" />
 ________________________________________
 # IP Addressing Table
 Device	VLAN	IP Address	Subnet Mask	Port/Interface<br>
@@ -87,10 +87,26 @@ Router(config-if)# no shutdown<br>
 ________________________________________
 # Output (Screenshots)
 •	VLAN configuration on the switch<br>
+
+<img width="1600" height="899" alt="WhatsApp Image 2026-11-19 at 4 01 46 PM" src="https://github.com/user-attachments/assets/c4fb215a-a030-463f-883b-eb0c97159c52" />
+
 •	Router subinterface configuration<br>
+
+<img width="1600" height="902" alt="WhatsApp Image 2026-11-19 at 4 02 06 PM" src="https://github.com/user-attachments/assets/220f1328-ea85-4fd3-9dec-bcbf4d7d8538" />
+
 •	PC IP settings<br>
+
+<img width="1600" height="898" alt="WhatsApp Image 2026-11-19 at 4 02 32 PM" src="https://github.com/user-attachments/assets/35d95507-3b5c-4c6b-a9dc-bca4d98bcdbe" />
+
 •	Successful ping between PCs in different VLANs after routing<br>
+
+<img width="1600" height="899" alt="WhatsApp Image 2026-11-19 at 4 02 51 PM" src="https://github.com/user-attachments/assets/9b8a43b5-45a0-462c-8d93-8c138b370559" />
+
+
 •	Successful ping between PCs in the same VLAN<br>
+
+<img width="1600" height="896" alt="WhatsApp Image 2026-11-19 at 4 03 19 PM" src="https://github.com/user-attachments/assets/83b1763d-24e2-43c3-8a0f-86245803560c" />
+
 ________________________________________
 # Result
 Inter-VLAN routing was successfully configured using the Router-on-a-Stick method. PCs in different VLANs could communicate through the router.
